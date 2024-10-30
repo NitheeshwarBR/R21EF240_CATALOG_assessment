@@ -1,5 +1,12 @@
 # Shamir's Secret Sharing - Polynomial Constant Term Calculation
 
+
+## Steps to Run the Code
+```bash
+> cd R21EF240_CATALOG_assessment
+> g++ assessment.cpp
+> ./a.out
+```
 ## Solution Overview
 
 This project implements a simplified version of Shamir's Secret Sharing algorithm by finding the constant term of an unknown polynomial using given roots. The roots are provided in a JSON format with different base encodings for their y-values. The solution utilizes Lagrange interpolation to calculate the constant term.
